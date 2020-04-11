@@ -69,7 +69,7 @@
               y--;
           } else {
               // Print the estimated time of each
-              printf("%llu\t%llu\n", time_control_diff/(TICKS_PER_NS), time_rowhit_diff/(TICKS_PER_NS));
+              printf("%lu\t%lu\n", time_control_diff/(TICKS_PER_NS), time_rowhit_diff/(TICKS_PER_NS));
           }
       }
       
